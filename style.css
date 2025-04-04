@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 25px 25px 70px 25px rgba(10, 15, 27, 0.2),
+  -10px -10px 30px rgba(10, 15, 27, 0.2);
+}
+
+.image #design {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: column;
+}
+
+ h3 {
+  padding: 10px 0px;
+  color: white;
+}
+
+.paragraph-two {
+  font-size: 16px;
+  color: hsl(215, 51%, 70%);
+  padding: 20px 0;  
+}
+
+.paragraph-Three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.info-one {
+  color: hsl(178, 100%, 50%);
+}
+
+.info-two {
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+}
+
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#image-avatar {
+ width: 50px;
+ border-radius: 50px;
+ border: 1px solid white; 
+}
+
+.paragraph-avatar {
+    color: hsl(215, 51%, 70%);
+    margin: 10px;
+}
+
+.paragraph-avatar2 {
+    color: white;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
